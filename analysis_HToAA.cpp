@@ -1,6 +1,6 @@
 // Safiye Eker //sep4/2025
 //Execute the code by using the command:
-//TFile *file = TFile::Open("HToAATo2Mu2B.root"); TTree *tree = (TTree*)file->Get("Events");
+//g++ analyze_HToAA.cpp -o analyze_HToAA `root-config --cflags --libs`
 //Then run the code by using:
 // ./run_analyses
 #include <TChain.h>
